@@ -23,13 +23,13 @@ export default function App() {
 
         <Header title={'Profile'}/>
         <Profile name={'Ivan Ivanov'} city={'Tymen'} age={'17'} rate={'4730'}/>
-
     </View>
   )
 }
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#ffffff'
+    backgroundColor: '#ffffff',
+    flex: 1,
   }
 })
